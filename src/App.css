@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: brown;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.contenedorPrincipal {
+  margin-top: 2rem;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 1rem;
+  font-size: 2em;
+  color: whitesmoke;
+}
